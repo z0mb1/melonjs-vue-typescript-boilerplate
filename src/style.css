@@ -1,0 +1,26 @@
+body {
+  background-color: black;
+  color: white;
+
+  /* Allow mouse dragging. */
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+
+  /* disable touch panning/zooming */
+  -ms-touch-action: none;
+  touch-action: none;
+
+  /* Allow canvas to hit the edges of the browser viewport. */
+  margin: 0;
+}
+
+@font-face {
+  font-family: PressStart2P;
+  font-display: swap;
+  src: url("data/fnt/PressStart2P.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
